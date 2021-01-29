@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/counter_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Coroutines and MockK"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="TESTABLE ACTIVITY"
+        android:layout_marginBottom="24dp"
+        android:onClick="openTestableActivity" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="NETWORK ACTIVITY"
+        android:layout_marginBottom="24dp"
+        android:onClick="openNetworkActivity" />
+
+</LinearLayout>
